@@ -1,0 +1,1 @@
+setup.exe  /S /ALLUSERS

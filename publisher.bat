@@ -1,0 +1,1 @@
+mklink "C:\Users\Public\Desktop\Publisher" "C:\Program Files (x86)\Microsoft Office\root\Office16\MSPUB.EXE"

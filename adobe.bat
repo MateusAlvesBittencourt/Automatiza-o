@@ -1,0 +1,11 @@
+mkdir "C:\Users\Public\Desktop\Adobe"
+msiexec.exe -i "\\poa01mdt04.pucrsnet.br\deploy$\Applications\Adobe P30F\Build\Adobe P30F.msi" /qn
+move "C:\Users\Public\Desktop\Adobe Creative Cloud.lnk" "C:\Users\Public\Desktop\Adobe"
+mklink "C:\Users\Public\Desktop\Adobe\Adobe After Effects 2023" "C:\Program Files\Adobe\Adobe After Effects 2023\Support Files\AfterFX.exe"
+mklink "C:\Users\Public\Desktop\Adobe\Adobe Animate 2023" "C:\Program Files\Adobe\Adobe Animate 2023\Animate.exe"
+mklink "C:\Users\Public\Desktop\Adobe\Adobe Dimension 2023" "C:\Program Files\Adobe\Adobe Dimension\Dimension.exe"
+mklink "C:\Users\Public\Desktop\Adobe\Adobe Illustrator 2023" "C:\Program Files\Adobe\Adobe Illustrator 2023\Support Files\Contents\Windows\Illustrator.exe"
+mklink "C:\Users\Public\Desktop\Adobe\Adobe Indesign 2023" "C:\Program Files\Adobe\Adobe InDesign 2023\InDesign.exe"
+mklink "C:\Users\Public\Desktop\Adobe\Adobe Photoshop 2023" "C:\Program Files\Adobe\Adobe Photoshop 2023\Photoshop.exe"
+mklink "C:\Users\Public\Desktop\Adobe\Adobe Premiere Pro 2023" "C:\Program Files\Adobe\Adobe Premiere Pro 2023\Adobe Premiere Pro.exe"
+mklink "C:\Users\Public\Desktop\Adobe\Adobe Premiere Rush 2023" "C:\Program Files\Adobe\Adobe Premiere Rush 2.0\Adobe Premiere Rush.exe"

@@ -1,0 +1,1 @@
+msiexec -i "setup.msi" /qn
